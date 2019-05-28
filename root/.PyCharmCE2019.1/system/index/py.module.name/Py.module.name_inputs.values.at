@@ -1,0 +1,21 @@
+
+formlayoutfigureoptionsformsubplottoolbackends	qt_compat	windowing	wx_compat
+backend_wx
+backend_ps_backend_tkbackend_aggbackend_pdfbackend_pgfbackend_qt4backend_qt5backend_svg_gtk3_compatbackend_gtk3backend_cairobackend_mixedbackend_nbaggbackend_tkaggbackend_wxaggbackend_macosxbackend_qt4aggbackend_qt5aggbackend_webaggbackend_gtk3aggbackend_tkcairobackend_wxcairobackend_qt4cairobackend_qt5cairobackend_templatebackend_gtk3cairobackend_webagg_coredatesimagehatchlinespylabscaletableunits	artist	bezier	figure	colors	legend	pyplot	quiver	sankeyconf	range4	range6testsconftesttest_tinypages
+mathmpl	sphinxextplot_directive	spines	ticker
+contour
+dviread
+markers
+patches
+widgets
+rcsetup
+matplotlib_versioncategorycolorbargridspecmathtextgeopolarprojectionstextpath	animation	container	docstring	offsetbox	stackplot	type1font
+_cm_listed
+streamplot
+_layoutbox
+tight_bbox
+texmanager
+transforms_color_datacollectionspatheffectsfont_managertight_layoutbackend_basesbackend_tools_mathtext_data_pylab_helpersblocking_inputlegend_handler_animation_databackend_managersfontconfig_pattern_constrained_layouttestsconftesttest_mplot3dtest_axes_gridtest_axes_grid1test_axisartist_axislinestest_axisartist_clip_pathtest_axisartist_axis_artisttest_axisartist_grid_findertest_axisartist_angle_helper test_axisartist_floating_axes*'test_axisartist_grid_helper_curvelinearart3d	axes3d	axis3d	proj3d
+mplot3d	axes_gridaxes_rgbcolorbar	axes_grid	axes_size	axislinesaxis_artist	clip_pathangle_helpergrid_finderaxes_dividerfloating_axesinset_locatorparasite_axesaxisline_styleanchored_artistsgrid_helper_curvelinear
+axes_grid1axes_rgbcolorbarmpl_axes	axes_grid	axes_sizeaxes_dividerinset_locatorparasite_axesanchored_artists
+axisartistaxes_rgb	axes_grid	axislines	clip_pathaxis_artistgrid_finderangle_helperaxes_dividerfloating_axesparasite_axesaxisline_stylegrid_helper_curvelinear	pyparsing

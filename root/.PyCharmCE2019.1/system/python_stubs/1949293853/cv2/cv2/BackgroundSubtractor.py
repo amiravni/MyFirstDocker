@@ -1,0 +1,66 @@
+# encoding: utf-8
+# module cv2.cv2
+# from /usr/local/lib/python3.5/dist-packages/cv2/cv2.cpython-35m-x86_64-linux-gnu.so
+# by generator 1.147
+""" Python wrapper for OpenCV. """
+
+# imports
+import cv2.cv2 as  # /usr/local/lib/python3.5/dist-packages/cv2/cv2.cpython-35m-x86_64-linux-gnu.so
+import cv2.instr as instr # <module 'cv2.instr'>
+import cv2.videoio_registry as videoio_registry # <module 'cv2.videoio_registry'>
+import cv2.dnn as dnn # <module 'cv2.dnn'>
+import cv2.fisheye as fisheye # <module 'cv2.fisheye'>
+import cv2.samples as samples # <module 'cv2.samples'>
+import cv2.ocl as ocl # <module 'cv2.ocl'>
+import cv2.utils as utils # <module 'cv2.utils'>
+import cv2.cuda as cuda # <module 'cv2.cuda'>
+import cv2.detail as detail # <module 'cv2.detail'>
+import cv2.flann as flann # <module 'cv2.flann'>
+import cv2.ml as ml # <module 'cv2.ml'>
+import cv2.Error as Error # <module 'cv2.Error'>
+import cv2.ogl as ogl # <module 'cv2.ogl'>
+import cv2.ipp as ipp # <module 'cv2.ipp'>
+import cv2 as __cv2
+
+
+class BackgroundSubtractor(__cv2.Algorithm):
+    # no doc
+    def apply(self, image, fgmask=None, learningRate=None): # real signature unknown; restored from __doc__
+        """
+        apply(image[, fgmask[, learningRate]]) -> fgmask
+        .   @brief Computes a foreground mask.
+        .   
+        .   @param image Next video frame.
+        .   @param fgmask The output foreground mask as an 8-bit binary image.
+        .   @param learningRate The value between 0 and 1 that indicates how fast the background model is
+        .   learnt. Negative parameter value makes the algorithm to use some automatically chosen learning
+        .   rate. 0 means that the background model is not updated at all, 1 means that the background model
+        .   is completely reinitialized from the last frame.
+        """
+        pass
+
+    def getBackgroundImage(self, backgroundImage=None): # real signature unknown; restored from __doc__
+        """
+        getBackgroundImage([, backgroundImage]) -> backgroundImage
+        .   @brief Computes a background image.
+        .   
+        .   @param backgroundImage The output background image.
+        .   
+        .   @note Sometimes the background image can be very blurry, as it contain the average background
+        .   statistics.
+        """
+        pass
+
+    def __init__(self, *args, **kwargs): # real signature unknown
+        pass
+
+    @staticmethod # known case of __new__
+    def __new__(*args, **kwargs): # real signature unknown
+        """ Create and return a new object.  See help(type) for accurate signature. """
+        pass
+
+    def __repr__(self, *args, **kwargs): # real signature unknown
+        """ Return repr(self). """
+        pass
+
+
