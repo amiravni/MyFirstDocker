@@ -20,7 +20,7 @@ python3-numpy \
 ros-kinetic-cv-bridge
 
 RUN pip3 install --upgrade pip==9.0.3
-RUN pip install opencv-python matplotlib rospkg catkin_pkg
+RUN pip install opencv-python matplotlib rospkg catkin_pkg scipy
 
 ## pycharm installation
 RUN umake ide pycharm /root/.local/share/umake/ide/pycharm

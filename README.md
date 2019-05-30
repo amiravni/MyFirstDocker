@@ -10,9 +10,15 @@ The docker includes
 	* cv_bridge
 * pycahrm community with virtual enviroment under `/root/PycharmProjects/dev`
 
-## How to build
+## How to setup docker
 ```
 sudo apt-get install docker.io
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+## How to build 
+```
 git clone https://github.com/amiravni/MyFirstDocker.git
 cd MyFirstDocker
 chmod +x build_docker.sh
