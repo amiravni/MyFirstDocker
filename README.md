@@ -16,6 +16,7 @@ sudo apt-get install docker.io
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+restart computer (or service) after this point
 
 ## How to build 
 ```
